@@ -7,6 +7,7 @@ This information is not part of the Plover Wiki or Read the Docs documentation. 
 ## From Binaries
 
 ### System requirements
+
 - Plover requires about 250 MB minimum free space. More space is required if you install additional plugins, add more dictionaries, or install required dependencies.
 - Using keyboard customizers like text expanders or [text replacements](https://support.apple.com/guide/mac-help/mh35735/mac) may cause unintended behavior when writing with Plover.
 - Requires an Internet connection to download and install plugins.
@@ -102,13 +103,11 @@ Portable Mode stores Plover’s settings in the same folder as the Plover app �
 Plover copies its included dictionaries into its portable folder.
 
 ### Install Plover for macOS
-
 #### Check which macOS is installed
 
 Steps in this guide are based on the version of macOS your Mac is using. Before you continue, [find out which macOS your Mac is using](https://support.apple.com/109033).
 
 #### Use the Disk Image
-
 1. Open plover-[version]-macosx_12_0_universal2.dmg. For example, plover-5.1.0-macosx_12_0_universal2.dmg. The Plover disk image appears in a Finder window.
     
     *Note:* Plover versions earlier than 5.0.0 are named plover-[version]-macosx_10_13_x86_64.dmg.
@@ -119,7 +118,6 @@ After installation completes, choose File > Eject.
 3. In the Finder, click Applications in the sidebar, Control-click the Plover app, then choose Open from the shortcut menu.
 
 #### ~~Open the Plover main window~~
-
 ~~The Plover status menu icon only appears in macOS Sequoia or earlier.~~ 
 
 ~~To show Plover’s main window:~~
@@ -201,18 +199,7 @@ If changes don’t appear to take effect, you may need to restart your Mac befor
     
 3. Quit Plover, then open it again for changes to take effect.
 
-**macOS Monterey and earlier**
-
-1. Open System Preferences, click Security & Privacy, then click Accessibility on the left. 
-2. Do any of the following:
-    - *Add Plover to the list:* Click the add (+) button at the bottom of the list, locate the Plover app, select the Plover app, then click Open.
-    - *Grant Plover permission:* Select Plover’s tick box.
-    - *Deny Plover permission:* Unselect Plover’s tick box.
-    - *Remove Plover from the list:* Select Plover, then click the remove (−) button at the bottom of the list.
-3. Quit Plover, then open it again for changes to take effect.
-
 #### **Check accessibility permissions**
-
 If you want to check if Plover has been granted accessibility permission or need to change Plover’s permission, you can review the list of accessibility permissions.
 
 **macOS Ventura or later**
@@ -222,6 +209,16 @@ If you want to check if Plover has been granted accessibility permission or need
     - *Add Plover to the list:* Click the add (+) button at the bottom of the list, locate the Plover app, select the Plover app, then click Open.
     - *Grant Plover permission:* Select Plover’s tick box on the right.
     - *Deny Plover permission:* Unselect Plover’s tick box on the right.
+    - *Remove Plover from the list:* Select Plover, then click the remove (−) button at the bottom of the list.
+3. Quit Plover, then open it again for changes to take effect.
+
+**macOS Monterey and earlier**
+
+1. Open System Preferences, click Security & Privacy, then click Accessibility on the left. 
+2. Do any of the following:
+    - *Add Plover to the list:* Click the add (+) button at the bottom of the list, locate the Plover app, select the Plover app, then click Open.
+    - *Grant Plover permission:* Select Plover’s tick box.
+    - *Deny Plover permission:* Unselect Plover’s tick box.
     - *Remove Plover from the list:* Select Plover, then click the remove (−) button at the bottom of the list.
 3. Quit Plover, then open it again for changes to take effect.
 
