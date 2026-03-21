@@ -6,20 +6,7 @@ This information is not part of the Plover Wiki or Read the Docs documentation. 
 
 ## From Binaries
 
-### Download Plover
-
-Visit Plover’s [latest release](https://github.com/openstenoproject/plover/releases/latest) page. Expand Assets, then choose one of the following to download Plover:
-
-- If you’re using Windows: Choose “Windows: Installer,” or “Windows: Portable ZIP.”
-- If you’re using macOS: **Choose “macOS: Disk Image.”
-- If you’re using Linux: Choose “Linux: AppImage.”
-
-If you need to download a pre-release or older version of Plover, see Plover’s [release](https://github.com/openstenoproject/plover/releases/) page.
-
-### Before you install Plover
-
-#### System Requirements & Compatibility
-
+### System requirements
 - Plover requires about 250 MB minimum free space. More space is required if you install additional plugins, add more dictionaries, or install required dependencies.
 - Using keyboard customizers like text expanders or [text replacements](https://support.apple.com/guide/mac-help/mh35735/mac) may cause unintended behavior when writing with Plover.
 - Requires an Internet connection to download and install plugins.
@@ -42,6 +29,16 @@ If you need to download a pre-release or older version of Plover, see Plover’s
 - Desktop environment with a system tray so that Plover’s menu item can be accessed.
 - GNOME may require additional extensions to enable system tray features.
 - Administrator account required to install device specific (udev) rules, and dependencies. If you want to use a steno keyboard, additional system configuration is required.
+
+### Download Plover
+
+Visit Plover’s [latest release](https://github.com/openstenoproject/plover/releases/latest) page. Expand Assets, then choose one of the following to download Plover:
+
+- If you’re using Windows: Choose “Windows: Installer,” or “Windows: Portable ZIP.”
+- If you’re using macOS: **Choose “macOS: Disk Image.”
+- If you’re using Linux: Choose “Linux: AppImage.”
+
+If you need to download a pre-release or older version of Plover, see Plover’s [release](https://github.com/openstenoproject/plover/releases/) page.
 
 ### Install Plover for Windows
 
@@ -67,14 +64,13 @@ If you created Plover Start menu shortcuts: To open Plover, select the Start men
 1. If a “Make sure you trust plover-[version]-win64.zip before you open it” message appears, click Show more, then choose Keep anyway.
 2. Right-click plover-[version]-win64.zip, then choose “Show in folder” from the shortcut menu. For example, plover-5.1.0-win64.zip. 
     
-    The ZIP file appears in a File Explorer window. 
+    The zip file appears in a File Explorer window. 
     
 3. Right-click plover-[version]-win64.zip, then choose Extract All from the shortcut menu.
 4. In the “Extract Compressed (Zipped) Folders” window, choose a folder to store Plover portable in, then choose Extract.
     
     If “Show extracted files when complete” is unselected, you will need to locate the Plover folder you extracted.
     
-
 #### Enable Portable Mode
 
 Portable Mode stores Plover’s settings in the same folder as the Plover app — keeping it separate from your Windows AppData folder and other versions of Plover.
@@ -104,7 +100,6 @@ Portable Mode stores Plover’s settings in the same folder as the Plover app �
     If a “Windows protected your PC” message appears, click More info, then choose Run anyway.
 
 Plover copies its included dictionaries into its portable folder.
-
 
 ### Install Plover for macOS
 
@@ -213,7 +208,7 @@ If changes don’t appear to take effect, you may need to restart your Mac befor
     - *Add Plover to the list:* Click the add (+) button at the bottom of the list, locate the Plover app, select the Plover app, then click Open.
     - *Grant Plover permission:* Select Plover’s tick box.
     - *Deny Plover permission:* Unselect Plover’s tick box.
-    - *Remove Plover from the list:* Select Plover, then click the remove (−) ****button at the bottom of the list.
+    - *Remove Plover from the list:* Select Plover, then click the remove (−) button at the bottom of the list.
 3. Quit Plover, then open it again for changes to take effect.
 
 #### **Check accessibility permissions**
@@ -335,7 +330,7 @@ Example: *Exec=$HOME/Documents/Plover/plover-wayland.sh*
 1. If you don’t want an icon to appear on the app shortcut, delete the `Icon=` line. Then skip to Step 7.
 2. If you want the Plover icon to appear on the app shortcut, save the [Plover icon](https://raw.githubusercontent.com/openstenoproject/plover/main/plover/assets/plover-icon.svg) to a folder. Then replace */location/plover-icon.svg* with the path to the icon.
     
-    Example: *$HOME/Documents/Plover/plover-icon.svg*
+    *Example: $HOME/Documents/Plover/plover-icon.svg*
     
 3. Save the app shortcut file with the .desktop file extension.
     
