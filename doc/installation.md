@@ -85,7 +85,7 @@ Portable Mode stores Plover’s settings in the same folder as the Plover app �
         
         If you don’t see the View menu, select the ellipsis (…).
         
-    - *Windows 10:* Choose **View > File name extensions in the Show/hide section, if unselected.
+    - *Windows 10:* Choose View > File name extensions in the Show/hide section, if unselected.
         
         If you don’t see “File name extensions,” click Show/hide.
         
@@ -129,8 +129,8 @@ After installation completes, choose File > Eject.
 
 ~~To show Plover’s main window:~~
 
-- *~~macOS Tahoe or earlier:* Click the Plover icon in the Dock then choose File > Show.~~
-- *~~macOS Sequoia or earlier:* Click the Plover status menu item in the right end of the menu bar then choose Show.~~
+- *macOS Tahoe or earlier:* Click the Plover icon in the Dock then choose File > Show.
+- *macOS Sequoia or earlier:* Click the Plover status menu item in the right end of the menu bar then choose Show.
 
 #### If you can’t open or need to use an earlier version of Plover
 
